@@ -1,0 +1,360 @@
+
+/* Navbar styling starts */
+.navbar{
+    height: 80px;
+    line-height: 80px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    padding: 0px 50px;
+    border-bottom: 1px saddlebrown solid;
+    font-size: 16px;
+}
+.navLeft{
+    flex: 2;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.navLeft figure{
+    margin-top: 40px;
+}
+.navLeft figure:hover .logo{
+    transform: scale(110%);
+    -webkit-transform: scale(110%);
+    -moz-transform: scale(110%);
+    -ms-transform: scale(110%);
+    -o-transform: scale(110%);
+}
+.navMid{
+ flex: 7;
+}
+.navbarList{
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+  align-items: center;
+  margin-right: 50px;
+}
+.navbarList li a:hover{
+    color: #0A56A4;
+}
+.navRight{
+    flex: 1;
+    align-items: center;
+    justify-content: flex-end;
+}
+.hamberger{
+    display: none;
+    cursor: pointer;
+}
+.navRight button{
+    width: 100%;
+    border: none;
+    padding: 15px 0px;
+    background-color: #0A56A4;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.navRight button:hover{
+    background: linear-gradient(to right, #0A56A4, #5da8f4);
+}
+
+/* Navbar styling ends */
+
+/* Hire developer popup styling starts */
+ .hirePop{
+    position: fixed;
+    top: 80px;
+    z-index: 9;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    min-height: 300px;
+ }
+ .popUpHeader{
+    height: 40px;
+    border-bottom: 1px solid #3d4145;
+    text-align: center;
+    line-height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+ }
+ .popArrow{
+    display: none;
+    cursor: pointer;
+ }
+ .popUpHeader a:hover{
+    color: #0A56A4;
+ }
+ 
+ .hireDeveloperWrapper{
+    display: flex;
+ }
+ .hireDeveloperSide{
+    display: none;
+    width: 100%;
+    height: auto;
+ }
+ .hireDeveloperBox{
+    padding: 20px;
+    width: 25%;
+    background-color: white;
+    border-right: 1px solid #3d4145;
+ }
+ .hireDeveloperList{
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+ }
+ .hireDeveloperList:hover{
+    color: #0A56A4;
+ }
+/* Hire developer popup styling ends */
+
+/* SidebarNav styling starts */
+.sidebarNav{
+    background-color: white;
+    width: 250px;
+    height: 100vh;
+    overflow-y: auto;
+    position: fixed;
+    box-shadow: 0px 0px 5px #5da8f4;
+    z-index: 9;
+    top: 0px;
+    left: 0;
+    transform: translateX(-100%);
+    transition: all .5s;
+    -webkit-transform:translateX(-100%) ;
+    -moz-transform:translateX(-100%) ;
+    -ms-transform:translateX(-100%) ;
+    -o-transform:translateX(-100%) ;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.sidebarNav::-webkit-scrollbar{
+    display: none;
+}
+.openSideNav{
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+.sideHeader{
+    height: 80px;
+    border-bottom: 1px solid saddlebrown;
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 40px;
+    padding-left: 50px;
+    line-height: 80px;
+    align-items: center;
+}
+.sideNavList{
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex; 
+    flex-direction: column;
+}
+.sideNavList a{
+    height: 30px;
+    line-height: 30px;
+}
+.sideNavButton{
+    margin-top: 20px;
+    padding: 10px 50px;
+    background-color: #0A56A4;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+/* SidebarNav styling ends */
+
+/* Footer styling starts */
+.footer{
+    background-color: #c1cfdd;
+    min-height: 400px;
+    width: 100%;
+    padding: 50px 150px;
+    display: flex;
+    justify-content: space-between;  
+}
+.footer1{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footer2{
+    width: 20%;
+}
+.footerTitle{
+    color: #0A56A4;
+    margin-bottom: 20px;
+}
+.footerInfoContent{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.footerInfoList:hover{
+    color: #0A56A4;
+}
+.footerIcon{
+    color: #0A56A4;
+    margin-top: 10px;
+    margin-right: 3px;
+}
+/* Footer styling ends */
+
+@media (max-width:1000px) {
+    .navbar{
+        padding: 0px 30px;
+    }
+    .navRight{
+        flex: 2;
+    }
+    .navbarList{
+        gap: 20px;
+    }
+    .footer{
+        padding: 50px 100px;
+
+    }
+}
+@media (max-width:926px) {
+    .navbar{
+        padding: 0px 30px;
+    }
+    .navRight{
+        flex: none;
+        display: flex;
+        gap: 30px;
+    }
+    .hamberger{
+        display: block;
+    }
+    .navRight button{
+        width: 150px;
+    }
+    .navMid{
+        display: none;
+    }
+    .navbarList{
+        gap: 20px;
+    }
+    .hirePop{
+        width: 300px;
+        z-index: 999;
+        right: 0;
+        top: 0;
+        height: auto;
+        overflow-y: auto;
+    }
+    .popArrow{
+        display: block;
+     }
+    .hirePop::-webkit-scrollbar{
+        display: none;
+    }
+    .hireDeveloperWrapper{
+        display: none;
+    }
+    .hireDeveloperSide{
+        display: flex;
+        flex-direction: column;
+    }
+    .hireDeveloperBox{
+        width: 100%;
+    }
+    .footer{
+        flex-wrap: wrap;
+        padding: 50px 70px;
+        row-gap: 20px;
+
+    }
+    .footer1{
+        width: 50%;
+    }
+    .footer2{
+        width: 50%;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .footer{
+        padding: 30px 50px;
+    }
+    .footer1{
+        width: 100%;
+    }
+    .footer2{
+        width: 100%;
+    }
+}
+
+@media (max-width:500px) {
+    .navbar{
+        padding: 0px 20px;
+        height: 50px;
+    }
+    .sidebarNav{
+        width: 250px;
+    }
+    .sideHeader{
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .navRight{
+        flex: none;
+    }
+    .navRight button{
+        display: none;
+    }
+    .navbarList{
+        gap: 20px;
+    }
+}
+
+
+@media (max-width:350px) {
+    .navbar{
+        padding: 0px 20px;
+        height: 50px;
+    }
+    .sideHeader{
+        height: 50px;
+    }
+    .logo{
+        height: 50px;
+    }
+    .navRight{
+        flex: none;
+    }
+    .navRight button{
+        display: none;
+    }
+    .navbarList{
+        gap: 20px;
+    }
+}

@@ -1,0 +1,365 @@
+/* career banner styling starts */
+.careerBanner{
+    height: 500px;
+    width: 100%;
+    background-image: url('../../images//careerBanner2.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    padding: 50px 70px;
+}
+.careerBannerHeading1{
+    font-size: 44px;
+    background-color: #0A56A4;
+    opacity: .5;
+    color: white;
+    text-align: center;
+}
+.careerBannerHeading2{
+    font-size: 36px;
+    background-color: #c1cfdd;
+    opacity: .6;
+    text-align: center;
+}
+.careerBanner button{
+    border: none;
+    cursor: pointer;
+    width: 200px;
+    padding: 15px;
+    font-size: 18px;
+    color: white;
+    background-color: #0A56A4;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.careerBanner button:hover{
+    background: linear-gradient(to right, #0A56A4, #5da8f4);
+}
+/* Career banner styling ends */
+
+
+/* career join styling starts */
+.careerJoin{
+    width: 100%;
+    min-height: 500px;
+    padding: 70px 150px;
+}
+.joinHeaderTitle{
+    text-align: center;
+    font-size: 42px;
+    margin-bottom: 20px;
+}
+.joinHeaderTitle span{
+    color: #0A56A4;
+}
+.joinHeaderPara{
+    margin: 10px;
+    line-height: 30px;
+    font-size: 18px;
+    letter-spacing: .6px;
+}
+.careerJoinBenefit{
+    display: flex;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.careerJoinBenefit:nth-child(even){
+    flex-direction: row-reverse;
+}
+.joinBenefitImage{
+    width: 400px;
+    height: 250px;
+}
+.careerJoinBenefitRight{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.careerJoinId{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    line-height: 50px;
+    background-color: #c1cfdd;
+    border: 1px solid #5c6063;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.careerJoinBenefitRight h3{
+    font-size: 32px;
+    color: #0A56A4;
+}
+.careerJoinBenefitRight p{
+    letter-spacing: .6px;
+    line-height: 30px;
+    font-size: 16px;
+}
+/* Career join styling ends */
+
+/* Career Openign styling starts */
+.careerOpening{
+    width: 100%;
+    min-height: 100vh;
+    padding: 70px 150px;
+}
+.openingHeaderTitle{
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 30px 0px;
+    color: #0A56A4;
+}
+.openingHeaderPara{
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: .6px;
+    margin: 30px 0px;
+}   
+.openingMain{
+    display: flex;
+    gap: 30px;
+    margin: 50px 0px;
+}
+.openingFilter{
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    background-color: white;
+    border: 1px solid rgb(202, 205, 202);
+}
+.filterTitle{
+    margin-bottom: 16px;
+    color: #0A56A4;
+}
+.jobSearch input{
+    border: 1px solid rgb(183, 179, 179);
+    padding: 5px;
+    height: 30px;
+    width: 80%;
+}
+.filterList{
+   font-size: 16px; 
+   margin: 5px 0px;
+   cursor: pointer;
+}
+.filterList:hover{
+    color: #5da8f4;
+}
+.openingListWrapper{
+    flex: 6;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.openingList{
+    display: flex;
+    gap: 20px;
+    min-height: 150px;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid rgb(191, 197, 191);
+}
+.openingListLeft{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.openingListRight{
+    flex: 4;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jobListTitle{
+    font-size: 20px;
+    color: #0A56A4;
+}
+.jobListPara{
+    font-size: 14px;
+    color: #5c6063;
+}
+.JobListButton button{
+    border: none;
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    padding: 10px 50px;
+    cursor: pointer;
+    background-color: #0A56A4;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.JobListButton button:hover{
+    background: linear-gradient(to right, #0A56A4, #5da8f4);
+}
+/* Career opening styling ends */
+
+/* Career perks styling tstarts */
+.careerPerks{
+    width: 100%;
+    min-height: 500px;
+    padding: 70px 150px;
+
+}
+.perksHeaderTitle{
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.perksHeaderTitle span{
+    color: #0A56A4;
+}
+.perksListWrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+.perkListBox{
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px #5c6063;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.perkListTitle{
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+.perkListPara{
+    letter-spacing: .6px;
+    font-size: 16px;
+    line-height: 30px;
+}
+/* Career perks styling ends */
+
+@media (max-width:1100px) {
+    .careerJoinBenefit{
+        flex-direction: column;
+    }
+    .careerJoinBenefit:nth-child(even){
+        flex-direction: column;
+    }
+    .careerJoinId{
+        display: none;
+    }
+    .perkListBox{
+        width: 290px;
+    }
+}
+@media (max-width:926px) {
+    .careerOpening,.careerJoin,.careerPerks{
+        padding: 50px 70px;
+    }
+    .careerJoinBenefitRight h3{
+        font-size: 28px;
+    }
+    .joinHeaderTitle{
+        font-size: 36px;
+    }
+    .perksHeaderTitle{
+        font-size: 36px;
+    }
+    .perkListBox{
+        width: 80%;
+    }
+}
+@media (max-width:700px) {
+    .careerBanner{
+        padding: 50px 50px;
+        height: 400px;
+    }
+    .careerBannerHeading1{
+        font-size: 36px;
+    }
+    .careerBannerHeading2{
+        font-size: 28px;
+    }
+    .careerOpening,.careerJoin,.careerPerks{
+        padding: 30px 50px;
+    }
+    .openingMain{
+        flex-direction: column;
+    }
+    .joinHeaderTitle{
+        font-size: 32px;
+    }
+    .joinBenefitImage{
+        width: 80%;
+        height: 250px;
+    }
+    .careerJoinBenefitRight h3{
+        font-size: 24px;
+    }
+    .perksHeaderTitle{
+        font-size: 32px;
+    }
+    .perkListBox{
+        width: 90%;
+    }
+    
+}
+@media (max-width:500px) {
+    .careerBanner{
+        padding: 30px 30px;
+        height: 300px;
+    }
+    .careerBannerHeading1{
+        font-size: 28px;
+    }
+    .careerBannerHeading2{
+        font-size: 24px;
+    }
+    .careerOpening,.careerPerks{
+        padding: 30px 30px;
+    }
+    .openingList{
+        flex-direction: column;
+    }
+    .openingListLeft{
+        justify-content: flex-start;
+    }
+    .joinHeaderTitle{
+        font-size: 28px;
+    }
+    .joinHeaderPara{
+        font-size: 16px;
+    }
+    .joinBenefitImage{
+        width: 90%;
+        height: 200px;
+    }
+    .careerJoinBenefitRight h3{
+        font-size: 20px;
+    }
+    .perksHeaderTitle{
+        font-size: 28px;
+    }
+    .perkListBox{
+        width: 90%;
+    }
+}

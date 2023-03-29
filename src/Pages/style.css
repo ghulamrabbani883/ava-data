@@ -1,0 +1,664 @@
+/* Home page styling starts */
+.bannerContainer {
+  position: relative;
+  min-height: 100vh;
+  background-color: white;
+  padding: 70px 150px;
+}
+/* Home page styling ends */
+
+/* Service page styling starts */
+.services {
+  width: 100%;
+  min-height: 100vh;
+  background-color: white;
+  padding: 30px 30px;
+  display: flex;
+  gap: 50px;
+}
+.serviceLeft {
+  flex: 2;
+  background-color: #0a56a4;
+  opacity: 0.5;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.serviceLeftTitle {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+.serviceLeftWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.serviceLeftList {
+  display: flex;
+  gap: 10px;
+}
+.serviceLeftButton {
+  width: 200px;
+  padding: 15px 0px;
+  cursor: pointer;
+  margin-top: 30px;
+  color: white;
+  background-color: red;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  -o-border-radius: 30px;
+}
+.serviceLeftButton:hover {
+  background: linear-gradient(to right, red, rgb(218, 135, 10));
+}
+.serviceRight {
+  flex: 6;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
+.serviceRightBox {
+  width: 265px;
+  padding: 10px;
+}
+.serviceList li {
+  color: #3b3c3e;
+  font-size: 16px;
+}
+.serviceList li:hover {
+  color: #0a56a4;
+}
+.serviceRightTitle {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+.serviceRightTitleIcon {
+  color: #0a56a4;
+}
+.serviceRightBox ul {
+  list-style: circle inside;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 10px;
+}
+.servicePricing {
+  min-height: 500px;
+  width: 100%;
+  background-color: white;
+  padding: 70px 150px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+.sevicePlan {
+  width: 300px;
+  height: auto;
+  box-shadow: 0 0 10px blue;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.servicePlanHeading {
+  background-color: #0a56a4;
+  height: 80px;
+  font-size: 20px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.servicePlanInfo {
+  padding: 20px;
+}
+.servicePrice {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.servicePriceList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+.serviceButton {
+  display: flex;
+  justify-content: c;
+  align-items: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+  border: none;
+  padding: 10px 50px;
+  margin-top: 20px;
+  font-size: 16px;
+  background-color: #0a56a4;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.serviceButton a {
+  color: white;
+  font-size: 16px;
+}
+
+/* Service page styling ends */
+
+/* Contact page styling starts */
+.contact {
+  min-height: 100vh;
+  width: 100%;
+  padding: 70px 150px;
+  background-color: #f5f7f8;
+}
+.contactHeader {
+  margin-bottom: 30px;
+  text-align: center;
+}
+.contactHeaderTitle {
+  margin-bottom: 20px;
+  font-size: 42px;
+}
+.contactHeaderPara1 {
+  margin: 10px 0px;
+  text-align: center;
+  letter-spacing: 1px;
+
+}
+.contactHeaderPara2 {
+  color: #0a56a4;
+  text-align: center;
+  letter-spacing: 1px;
+}
+.contactForm {
+  background-color: white;
+  box-shadow: 0px 0px 10px #c1cfdd;
+  min-height: auto;
+  padding: 50px;
+  width: 100%;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.formBox {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0px;
+}
+.formInnerBox {
+  flex: 1;
+  display: flex;
+  gap: 10px;
+}
+.formIcon {
+  color: #0a56a4;
+  margin-top: 10px;
+}
+.formFoxRange {
+  display: flex;
+  flex-direction: column;
+  gap: -50px;
+}
+.submitBox {
+  width: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.submitBox input {
+  background-color: #0a56a4;
+  border: none;
+  height: 40px;
+  width: 100%;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.submitBox input:hover {
+  background: linear-gradient(to right, #0a56a4, #5da8f4);
+}
+input {
+  width: 100%;
+  padding: 5px;
+  height: 40px;
+  border-bottom: 1px solid black;
+  background-color: white;
+}
+input::placeholder,
+textarea::placeholder {
+  font-size: 16px;
+  color: #c1cfdd;
+}
+textarea {
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid black;
+  padding: 5px;
+}
+input[name="countrycode"] {
+  width: 30px;
+}
+input[type="range"] {
+  width: 100%;
+  margin-top: -30px;
+}
+.clients {
+  min-height: 200px;
+  margin: 50px 0px;
+}
+.clientHeader {
+  display: flex;
+  justify-content: space-between;
+}
+.clientHeaderTitle {
+  font-size: 32px;
+  text-align: left;
+  margin: 30px 0px;
+}
+.clientsControllerWrapper {
+  display: flex;
+  gap: 30px;
+  margin: 30px 0px;
+}
+.clientsController {
+  color: #0a56a4;
+  cursor: pointer;
+}
+.clientsController:hover {
+  transform: scale(110%);
+  -webkit-transform: scale(110%);
+  -moz-transform: scale(110%);
+  -ms-transform: scale(110%);
+  -o-transform: scale(110%);
+}
+.clientsListWrapper {
+  background-color: #c1cfdd;
+  display: flex;
+  box-shadow: 0px 0px 5px white inset;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  overflow-x: auto;
+  padding: 20px;
+  flex-flow: row;
+}
+.clientsListWrapper::-webkit-scrollbar {
+  display: none;
+}
+.clientList {
+  width: 120px;
+  height: 120px;
+  flex: 0 0 auto;
+  background-color: red;
+}
+.socials {
+  margin: 50px 0px;
+  display: flex;
+  width: 100%;
+  min-height: 200px;
+  justify-content: space-between;
+}
+.socialsLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+}
+.socialsLeftTitle {
+  font-size: 32px;
+  color: #0a56a4;
+}
+.socialLeftPara {
+  font-size: 16px;
+}
+.socialsRight {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.socilaIconBox {
+  background-color: white;
+  height: 80px;
+  width: 80px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px #c1cfdd;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.socialIcon {
+  color: #0a56a4;
+}
+.socilaIconBox:hover {
+  border: 1px solid #0a56a4;
+}
+.contactLocation {
+  min-height: 400px;
+}
+.locationHeader {
+  margin: 30px 0px;
+}
+.locationHeaderTitle {
+  font-size: 32px;
+  color: #0a56a4;
+}
+.locationBox {
+  display: flex;
+  gap: 40px;
+  min-height: 200px;
+  margin-bottom: 20px;
+}
+.locationMap {
+  flex: 1;
+}
+.locationInfo {
+  flex: 1;
+}
+.locationInfoTitle {
+  font-size: 18px;
+  color: #5da8f4;
+  margin-bottom: 10px;
+}
+/* Contact page styling ends */
+
+/* About page styling starts */
+.about {
+  min-height: 100vh;
+  width: 100%;
+  padding: 70px 150px;
+  background-color: #f5f7f8;
+}
+/* About page styling ends */
+
+/* Work page styling starts */
+.work {
+  width: 100%;
+  min-height: 100vh;
+}
+.ourWorkHeader {
+  background-color: #0a56a4;
+  min-height: 500px;
+  padding: 70px 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ourWorkLeft {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  color: white;
+}
+.ourWorkImageContainer {
+  width: 100%;
+  height: 100%;
+}
+.ourWorkTitle {
+  font-size: 32px;
+}
+.ourWorkPara {
+  font-size: 16px;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+.ourWorkRight {
+  flex: 1;
+  padding: 30px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  justify-content: center;
+}
+.workContent {
+  padding: 70px 150px;
+  min-height: 500px;
+}
+.workContentHeaderTitle{
+  font-size: 42px;
+  text-align: center;
+  margin-bottom:50px;
+}
+.workContentHeaderTitle span{color: #0a56a4;}
+.workContentWrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  row-gap: 30px;
+}
+.workContentBox{
+  width: 32%;
+  min-height: 300px;
+  padding-bottom: 20px;
+  box-shadow: 0 0 10px #c1cfdd;
+  border-radius: 10px;
+  cursor: pointer;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all .3s;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  -ms-transition: all .3s;
+  -o-transition: all .3s;
+}
+.workImageContainer{
+  width: 100%;
+  height: 70%;
+}
+.workImage{
+  width: 100%;
+  height: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+.workContentBox:hover .workImage{
+  transform: scale(95%);
+  -webkit-transform: scale(95%);
+  -moz-transform: scale(95%);
+  -ms-transform: scale(95%);
+  -o-transform: scale(95%);
+}
+.workInfo{
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+.workInfo h3{font-weight: 400; text-align: center; }
+.workInfo p{font-size: 14px;  color: #0a56a4; text-align: center;
+}
+.workInfo p span{
+  color: black;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+/* Work page styling ends */
+
+
+/* Hire dedicated page styling starts */
+
+/* Hire dedicated page styling ends */
+
+@media (max-width: 1100px) {
+  .contact,
+  .about,.workContent {
+    padding: 70px 100px;
+  }
+  .ourWorkHeader {
+    padding: 50px 100px;
+  }
+  .workContentBox{
+    width: 45%;
+  }
+}
+@media (max-width: 1000px) {
+  .socials {
+    flex-direction: column;
+  }
+  .ourWorkWrapper {
+    flex-direction: column;
+  }
+  .ourWorkWrapper:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 926px) {
+  .bannerContainer {
+    padding: 50px 100px 0px 100px;
+  }
+  .workContent{
+    padding: 50px 50px;
+  }
+  .formBox {
+    display: flex;
+    flex-direction: column;
+  }
+  .locationBox{
+    flex-direction: column;
+    gap: 20px;
+    margin-bottom: 50px;
+  }
+  .ourWorkHeader {
+    padding: 50px 70px;
+    flex-direction: column-reverse;
+  }
+  .ourWorkImageContainer {
+    width: 70%;
+    height: 40%;
+  }
+  .workContentHeaderTitle{
+    font-size: 36px;
+  }
+  .services {
+    flex-direction: column;
+  }
+  .servicePricing {
+    padding: 50px 100px;
+  }
+}
+
+@media (max-width: 700px) {
+  .bannerContainer {
+    padding: 30px 70px 0px 70px;
+  }
+  .contact,
+  .about {
+    padding: 50px 50px;
+  }
+  .workContent{
+    padding: 30px 50px;
+  }
+  .workContentHeaderTitle{
+    font-size: 32px;
+  }
+  .workContentWrapper{
+    justify-content: center;
+  }
+  .workContentBox{
+    width: 80%;
+  }
+  .contactHeaderTitle {
+    font-size: 36px;
+  }
+  .contactForm {
+    padding: 30px;
+  }
+  .formIcon {
+    font-size: 20;
+    margin-top: 16px;
+  }
+  .locationHeaderTitle{
+    font-size: 28px;
+  }
+  .clientHeaderTitle {
+    font-size: 28px;
+  }
+  .socialsLeftTitle {
+    font-size: 28px;
+  }
+  .socialsRight {
+    flex-wrap: wrap;
+  }
+  .ourWorkHeader {
+    padding: 30px 50px;
+  }
+  .servicePricing {
+    padding: 50px 70px;
+  }
+}
+@media (max-width: 500px) {
+  .bannerContainer {
+    padding: 30px 30px 0px 30px;
+  }
+  .locationHeaderTitle{
+    font-size: 24px;
+  }
+  .contact,
+  .about {
+    padding: 30px 30px;
+  }
+  .workContent{
+    padding: 30px 30px;
+  }
+  .workContentBox{
+    width: 90%;
+  }
+  .contactHeaderTitle {
+    font-size: 32px;
+  }
+  .workContentHeaderTitle{
+    font-size: 28px;
+  }
+  .clientHeaderTitle {
+    font-size: 24px;
+  }
+  .socialsLeftTitle {
+    font-size: 24px;
+  }
+  .ourWorkHeader {
+    padding: 30px 30px;
+  }
+  .servicePricing {
+    padding: 30px 10px;
+  }
+}

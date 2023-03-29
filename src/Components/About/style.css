@@ -1,0 +1,183 @@
+/* WhoWeAre styling starts */
+
+.whoWe,.whatWeDo{
+    width: 100%;
+    min-height: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+.whoWeLeft,.whatWeDoRight{
+    flex: 1;
+    padding: 30px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.whoWeImageContainer,.whatWeImageContainer{
+    width: 90%;
+    height: 90%;
+    position: relative;
+}
+.whoWeImageContainer::before,.whatWeImageContainer::before{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    top: 0;
+    left: 0;
+    border-top: 10px solid blue;
+    border-left: 10px solid blue;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.whoWeImageContainer::after,.whatWeImageContainer::after{
+    content: '';
+    position: absolute;
+    width: 20%;
+    height: 20%;
+    bottom: 0;
+    right: 0;
+    border-right: 10px solid blue;
+    border-bottom: 10px solid blue;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+.whoWeImageContainer:hover::before,.whatWeImageContainer:hover::before{
+    width: 50%;
+    height: 50%;
+}
+.whoWeImageContainer:hover::after,.whatWeImageContainer:hover::after{
+    width: 50%;
+    height: 50%;
+}
+.whoWeRight,.whatWeDoLeft{
+    flex: 1;
+    padding:10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.whoWeRightTitle,.whatWeLeftTitle{
+    font-size: 32px;
+    font-weight: 500;
+}
+.whoWeRightPara,.whatWeLeftPara{
+    letter-spacing: .6px;
+    word-spacing: 2px;
+    font-size: 16px;
+    line-height: 24px;
+}
+.whoWeRightButton,.whatWeLeftButton{
+    width: 200px;
+    background-color: #0A56A4;
+    color: white;
+    border: none;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
+.whoWeRightButton:hover,.whatWeLeftButton:hover{
+    background: linear-gradient(to right, #0A56A4, #5da8f4);
+}
+/* WhoWeAre styling ends */
+
+/* VisionMission styling starts */
+.vision{
+    width: 100%;
+    min-height: 400px;
+    padding: 70px 150px;
+    display: flex;
+    justify-content: space-between; 
+    background-color: #0A56A4;
+    color: white;
+    scroll-snap-type: y mandatory;
+}
+.visionLeft{
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-snap-align: center;
+}
+.visionRight{
+    padding: 30px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    scroll-snap-align: center;
+}
+.visionTitle{
+    font-size: 24px;
+    font-weight: 400;
+}
+.visionPara{
+    letter-spacing: .6px;
+    line-height: 24px;
+}
+
+/* Vision mission styling ends */
+
+@media (max-width:1100px) {
+    .vision{
+        padding: 50px 100px;
+    }
+}
+@media (max-width:926px) {
+    .whoWe{
+        flex-direction: column;
+    }
+    .whatWeDo{
+        flex-direction: column-reverse;
+    }
+    .whoWeLeft{
+        width: 100%;
+        padding: 0px;
+        height: 100px;
+    }
+    .whoWeImageContainer{
+        width: 100%;
+        height: 300px;
+    }
+    .vision{
+        padding: 30px 70px;
+    }
+}
+@media (max-width:700px) {
+    .vision{
+        padding: 30px 50px;
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width:500px) {
+    .whoWeLeft{
+        width: 100%;
+        padding: 0px;
+        height: 100px;
+    }
+    .whoWeImageContainer{
+        width: 100%;
+        height: 200px;
+    }
+    .vision{
+        padding: 30px 30px;
+        gap: 20px;
+    }
+}
