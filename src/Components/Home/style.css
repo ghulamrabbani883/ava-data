@@ -438,6 +438,12 @@ min-height: 400px;
   .homeServicesTitle{
     font-size: 28px;
   }
+  .homeServiceBox{
+    width: 100%;
+  }
+  .serviceBoxContent {
+    flex-direction: column;
+  }
   .homeBusinessNeeds {
     padding: 20px 30px;
   }
@@ -452,3 +458,4 @@ min-height: 400px;
     left: 20px;
   }
 }
+
