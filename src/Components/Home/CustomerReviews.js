@@ -27,7 +27,7 @@ const CustomerReviews = () => {
       <div className="reviewsWrapper">
         {customerReviewsData.map((review) => {
           return (
-            <div className="reviewsBox">
+            <div className="reviewsBox" key={review.id}>
               <div className="reviewsBoxInner">
                 <div className="reviewsPara">
                   <p>{review.para}</p>

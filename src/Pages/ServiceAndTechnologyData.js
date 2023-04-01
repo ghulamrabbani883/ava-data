@@ -246,7 +246,7 @@ export const technologyRight = [
     id: 2,
     icon: <MdWebAsset size={24} />,
     title: "Backend",
-    serviceList: ["Nodej", "PHP", ".Net", "Java", "Python", "Rails"],
+    serviceList: ["Nodejs", "PHP", ".Net", "Java", "Python", "Rails"],
   },
   {
     id: 3,

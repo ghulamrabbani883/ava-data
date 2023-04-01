@@ -24,7 +24,6 @@ import {
   YOUR_SERVICE_ID,
   YOUR_TEMPLATE_ID,
 } from "../utils/EmailJS";
-import avaData from "../images/avadata.jpg";
 import emailjs from "@emailjs/browser";
 import { Helmet } from 'react-helmet';
 import client1 from '../images/client1.jpeg'
@@ -124,7 +123,7 @@ const Contact = () => {
           We would be happy to hear from you, please fill in the form below or
           mail us your requirements on
         </p>
-        <p className="contactHeaderPara2">info AT hyperlinkinfosystem.com</p>
+        <p className="contactHeaderPara2">info at ava-data.com</p>
       </div>
       <div className="contactForm">
         <form ref={form} onSubmit={sendEmail}>

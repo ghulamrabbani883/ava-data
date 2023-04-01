@@ -16,7 +16,7 @@ const HireDedicated = () => {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Hire-dedicated-developers</title>
-        <link rel="canonical" href="http://localhost:3000/our-work" />
+        <link rel="canonical" href="http://localhost:3000/hire-dedicated-developer" />
       </Helmet>
       <DedicatedBanner />
       <DedicatedContent />
