@@ -22,9 +22,11 @@ const DedicatedPricing = () => {
           <p className="dedicatedPrice">
             <span>$ 25</span>/ hour
           </p>
-          <button className="pricingButton" type="button">
-            <Link to="/hire-developers">Hire Now</Link>
-          </button>
+          <Link to="/hire-developers">
+            <button className="pricingButton" type="button">
+              Hire Now{" "}
+            </button>
+          </Link>
         </div>
         <div className="dedicatedPricingBox">
           <h3 className="dedicatedPricingType">Monthly</h3>
@@ -36,9 +38,11 @@ const DedicatedPricing = () => {
           <p className="dedicatedPrice">
             <span>$ 3000</span> / month
           </p>
-          <button className="pricingButton" type="button">
-            <Link to="/hire-developers">Hire Now</Link>
-          </button>
+          <Link to="/hire-developers">
+            <button className="pricingButton" type="button">
+              Hire Now{" "}
+            </button>
+          </Link>
         </div>
         <div className="dedicatedPricingBox">
           <h3 className="dedicatedPricingType">Quarterly</h3>
@@ -50,10 +54,11 @@ const DedicatedPricing = () => {
           <p className="dedicatedPrice">
             <span>$ 8000</span> / Quarter
           </p>
-
-          <button className="pricingButton" type="button">
-            <Link to="/hire-developers">Hire Now</Link>
-          </button>
+          <Link to="/hire-developers">
+            <button className="pricingButton" type="button">
+              Hire Now{" "}
+            </button>
+          </Link>
         </div>
       </div>
     </section>
