@@ -1,11 +1,18 @@
 import React from "react";
 import { jobOpenings } from "./careerData";
 import { Link } from "react-router-dom";
-const CareerOpening = () => {
-  let categories = ["Front-end Developer", "Backend Developer", "DevOps"];
-  const Location = ["USA","UK","India","Germany","NewZeelan","Australia","Brazil","Vietnam"]
+const CareerOpening = ({scrollToJobOpening}) => {
+  let categories = [];
+  let Location = ["USA","UK","India","Germany","NewZeelan","Australia","Brazil","Vietnam"]
+  let lastCat = "";
+  jobOpenings.map((job)=>{
+    if(job.category !== lastCat){
+      categories.push(job.category);
+    }
+    lastCat = job.category;
+  })
   return (
-    <section className="careerOpening">
+    <section className="careerOpening" ref={scrollToJobOpening}>
       <div className="openingHeader">
         <h2 className="openingHeaderTitle">Open Positions</h2>
         <p className="openingHeaderPara">
@@ -23,14 +30,14 @@ const CareerOpening = () => {
           </div>
           <div className="categoryFilter">
             <h3 className="filterTitle">Category</h3>
-            {categories.map((cat) => (
-              <p className="filterList">{cat}</p>
+            {categories.map((cat,i) => (
+              <p className="filterList" key={i+1}>{cat}</p>
             ))}
           </div>
           <div className="categoryFilter">
             <h3 className="filterTitle">Locations</h3>
-            {Location.map((cat) => (
-              <p className="filterList">{cat}</p>
+            {Location.map((cat,i) => (
+              <p className="filterList" key={i+1}>{cat}</p>
             ))}
           </div>
         </div>

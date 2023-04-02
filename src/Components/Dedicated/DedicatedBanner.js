@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import banner from "../../images/dedicateBannerImage.jpg";
+import { Link } from "react-router-dom";
 
 const DedicatedBanner = () => {
   return (
@@ -11,7 +12,7 @@ const DedicatedBanner = () => {
           Hire Dedicated Developers for your dream app idea from our expert app
           developers at quite competitive rates in the market.
         </p>
-        <button type="button">Get a Qoute </button>
+        <Link to="/contact"><button type="button">Get a Qoute </button></Link>
       </div>
       <div className="dedicatedRightBanner">
         <figure>

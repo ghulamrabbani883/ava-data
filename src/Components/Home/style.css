@@ -181,7 +181,8 @@ min-height: 400px;
 }
 .homeBusinessNeedsTitle2 {
   font-size: 24px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  color: white;
 }
 .businessNeedsWrapper {
   display: flex;
@@ -213,6 +214,7 @@ min-height: 400px;
 .businessContentTitle {
   margin-bottom: 16px;
   letter-spacing: 1px;
+  color: white;
 }
 .businessContentPara {
   letter-spacing: 1px;

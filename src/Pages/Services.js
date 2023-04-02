@@ -25,7 +25,7 @@ const Services = () => {
             })}
           </div>
           <div className="serviceLeftBottom">
-            <Link to="/contact">
+            <Link to="/about">
               <button className="serviceLeftButton" type="button">
                 Know More
               </button>
@@ -53,39 +53,14 @@ const Services = () => {
       <section className="servicePricing">
         <div className="sevicePlan">
           <div className="servicePlanHeading">
-            <h3>Static Website</h3>
-          </div>
-          <div className="servicePlanInfo">
-            <div className="servicePrice">
-              <h3>$ 2000</h3>
-            </div>
-            <div className="servicePriceList">
-              <p>Home Page</p>
-              <p>About Page </p>
-              <p>Contact Page</p>
-              <p>Service Page</p>
-            </div>
-            <button className="serviceButton" type="button">
-              <Link to="/contact">Contact</Link>
-            </button>
-          </div>
-        </div>
-        <div className="sevicePlan">
-          <div className="servicePlanHeading">
-            <h3>Dynamic Website</h3>
+            <h3>Web App</h3>
           </div>
           <div className="servicePlanInfo">
             <div className="servicePrice">
               <h3>$ 5000</h3>
             </div>
             <div className="servicePriceList">
-              <p>Home Page</p>
-              <p>About Page </p>
-              <p>Contact Page</p>
-              <p>Service Page</p>
-              <p>Dashboard</p>
-              <p>Authentication</p>
-              <p>API Integration</p>
+              <p>For a dynamic website with an MVP or simple online store, and it will take upto 1 month of time to complete the project. The prices may vary depending on the faeture you need.</p>
             </div>
             <button className="serviceButton" type="button">
               <Link to="/contact">Contact</Link>
@@ -94,22 +69,30 @@ const Services = () => {
         </div>
         <div className="sevicePlan">
           <div className="servicePlanHeading">
-            <h3>Static+Dynamic Website</h3>
+            <h3>Mobile App</h3>
           </div>
           <div className="servicePlanInfo">
             <div className="servicePrice">
-              <h3>$ 1000</h3>
+              <h3>$ 7000</h3>
             </div>
             <div className="servicePriceList">
-              <p>Home Page</p>
-              <p>About Page </p>
-              <p>Contact Page</p>
-              <p>Service Page</p>
-              <p>Dashboard</p>
-              <p>Authentication</p>
-              <p>API Integration</p>
-              <p>Maintainance</p>
-              <p>Dashboard authentication</p>
+            <p>For the interactive mobile application with an MVP or simple online store, and it will take upto 1-2 months of time to complete the project. The prices may vary depending on the faeture you need.</p>
+            </div>
+            <button className="serviceButton" type="button">
+              <Link to="/contact">Contact</Link>
+            </button>
+          </div>
+        </div>
+        <div className="sevicePlan">
+          <div className="servicePlanHeading">
+            <h3>Web+Mobile App</h3>
+          </div>
+          <div className="servicePlanInfo">
+            <div className="servicePrice">
+              <h3>$ 12000</h3>
+            </div>
+            <div className="servicePriceList">
+            <p>For a dynamic website along with an interactive mobile appliaction having the same faeture,  with an MVP or simple online store, and it will take upto 1 month of time to complete the project. The prices may vary depending on the faeture you need.</p>
             </div>
             <button className="serviceButton" type="button">
               <Link to="/contact">Contact</Link>

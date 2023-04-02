@@ -92,6 +92,9 @@
     display: none;
     cursor: pointer;
  }
+ .popUpHeader a{
+    font-weight: bold;
+ }
  .popUpHeader a:hover{
     color: #0A56A4;
  }
@@ -213,6 +216,9 @@
     display: flex;
     flex-direction: column;
     gap: 10px;
+}
+.footerInfoList p{
+    cursor: pointer;
 }
 .footerInfoList:hover{
     color: #0A56A4;

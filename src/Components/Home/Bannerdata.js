@@ -16,27 +16,27 @@ export const bannerData = [
     title: "SUSTAINABLE AND SCALABLE SOFTWARE DEVELOPMENT SERVICES",
     para: "India's leading software development company, helping businesses build world-class software products with dedicated tech teams.",
     illustration: banner1,
-    link: "",
+    link: "/services",
   },
   {
     title: "PROVIDING OUTSTANDING MOBILE APP DEVELOPMENT IN INDIA",
     para: "Hire India's most dedicated and talented mobile app developers to develop apps centered on business requirements, capital, and timeline.",
     illustration: banner2,
-    link: "",
+    link: "/services",
   },
   {
     title:
       "FINEST FULL STACK DEVELOPMENT SERVICES FOR ENHANCED WEB APPLICATION DEVELOPMENT",
     para: "Hire the best full-stack development services in India with the most experienced full-stack developers specializing in front-end, back-end, database management frameworks, and more.",
     illustration: banner3,
-    link: "",
+    link: "/services",
   },
   {
     title:
       "TRANSFORMING BUSINESS WITH THE MOST ENGAGING, INTUITIVE, AND RESULT-DRIVEN UI/UX DESIGN",
     para: "India's best UI/UX design services that align with your brand ambitions to deliver value and boost your brand reputation.",
     illustration: banner4,
-    link: "",
+    link: "/services",
   },
 ];
 export const homeServicesData = [

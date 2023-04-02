@@ -166,7 +166,7 @@ export const serviceRightData = [
     title: "Web development",
     serviceList: [
       "Enterprise Solutions",
-      "ECommerce",
+      "E-Commerce",
       "CMS",
       "API & Backend",
       "Custom Development",

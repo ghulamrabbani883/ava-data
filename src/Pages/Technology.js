@@ -11,7 +11,7 @@ const Technology = () => {
         <title>Ava-Data/Technology</title>
         <link rel="canonical" href="http://localhost:3000/technology" />
       </Helmet>
-      <div className="serviceLeft">
+      <div className="serviceLeft technologyLeft">
         <div className="technologyTop">
           <img
             src={image}
@@ -43,7 +43,7 @@ const Technology = () => {
           />
         </div>
         <div className="technologyBottom" style={{"margin-top":"30px"}}>
-          <h2 style={{"margin-bottom":"10px"}}> Hire Team</h2>
+          <h2 style={{"margin-bottom":"10px","color":"white"}}> Hire Team</h2>
           <p>Create your own agile squad with experienced members just like your local team</p>
         </div>
       </div>

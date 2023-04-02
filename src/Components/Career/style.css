@@ -134,6 +134,7 @@
     flex: 2;
     padding: 20px;
     display: flex;
+    height: fit-content;
     flex-direction: column;
     gap: 30px;
     background-color: white;

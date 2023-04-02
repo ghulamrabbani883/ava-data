@@ -36,6 +36,7 @@ import client6 from '../images/client6.jpeg'
 import client7 from '../images/client7.jpeg'
 import client8 from '../images/client8.jpeg'
 import client9 from '../images/client9.jpeg'
+import { Link } from 'react-router-dom';
 const Contact = () => {
   const [alertMessage, setAlertMessage] = useState("");
   const [formData, setFormData] = useState({
@@ -219,8 +220,8 @@ const Contact = () => {
                 name="budget"
                 onChange={handleChange}
                 value={formData.budget}
-                min={100}
-                max={200000}
+                min={5000}
+                max={100000}
               />
             </div>
           </div>
@@ -274,22 +275,22 @@ const Contact = () => {
         </div>
         <div className="socialsRight">
           <div className="socilaIconBox">
-            <FaFacebook className="socialIcon" size={28} />
+            <Link to="https://facebook.com" target="_blank" rel="noreferrer"><FaFacebook className="socialIcon" size={28} /></Link>
           </div>
           <div className="socilaIconBox">
-            <FaTwitter className="socialIcon" size={28} />
+            <Link to="https://twitter.com" target="_blank" rel="noreferrer"><FaTwitter className="socialIcon" size={28} /></Link>
           </div>
           <div className="socilaIconBox">
-            <FaLinkedin className="socialIcon" size={28} />
+          <Link to="https://linkedin.com" target="_blank" rel="noreferrer"><FaLinkedin className="socialIcon" size={28} /></Link>
           </div>
           <div className="socilaIconBox">
-            <FaInstagram className="socialIcon" size={28} />
+          <Link to="https://instagram.com" target="_blank" rel="noreferrer"><FaInstagram className="socialIcon" size={28} /></Link>
           </div>
           <div className="socilaIconBox">
-            <FaSnapchat className="socialIcon" size={28} />
+          <Link to="https://snapchat.com" target="_blank" rel="noreferrer"><FaSnapchat className="socialIcon" size={28} /></Link>
           </div>
           <div className="socilaIconBox">
-            <FaPinterest className="socialIcon" size={28} />
+          <Link to="https://pinterest.com" target="_blank" rel="noreferrer"><FaPinterest className="socialIcon" size={28} /></Link>
           </div>
         </div>
       </div>
@@ -299,15 +300,15 @@ const Contact = () => {
         </div>
         <div className="locationBox">
             <div className="locationMap">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29576.40979636701!2d82.1689133680965!3d22.085860617848443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a280aed8ea48401%3A0x4d4a6ca631556b08!2sRajkishore%20Nagar%2C%20Chhattisgarh%20495006!5e0!3m2!1sen!2sin!4v1679567364308!5m2!1sen!2sin" width="100%" height="100%" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d32988.282564382745!2d25.488294229434743!3d58.885013520201305!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46933693e511dd87%3A0x17944f4614b2d02!2sPaide%2C%20J%C3%A4rva%20County%2C%20Estonia!5e0!3m2!1sen!2sin!4v1680410454610!5m2!1sen!2sin" width="100%" height="100%"  allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
             <div className="locationInfo">
                 <h3 className="locationInfoTitle">Bilaspur</h3>
                 <address className="locationInfoAddress">
-                  Post office road,<br />
-                  Rajkishore nagar,<br />
-                  Bilaspur Chhattisgarh (495006)<br />
-                  Mobile: +91 789734078<br />
+                  718 Grady Crescent,<br />
+                  Estonia EE (EST),<br />
+                  Northern Europe<br />
+                  Mobile: +37 24651175<br />
                   Email: avadata.in@gmail.com<br />
                 </address>
             </div>
@@ -322,7 +323,7 @@ const Contact = () => {
                 21 Highfield Road,<br />
                   London UK,<br />
                   E42 5NS<br />
-                  Mobile: +91 789734078<br />
+                  Mobile: +44 2076830353<br />
                   Email: avadata.in@gmail.com<br />
                 </address>
             </div>

@@ -73,6 +73,7 @@
     word-spacing: 2px;
     font-size: 16px;
     line-height: 24px;
+    color: #282828;
 }
 .whoWeRightButton,.whatWeLeftButton{
     width: 200px;
@@ -126,6 +127,7 @@
 .visionTitle{
     font-size: 24px;
     font-weight: 400;
+    color: white;
 }
 .visionPara{
     letter-spacing: .6px;

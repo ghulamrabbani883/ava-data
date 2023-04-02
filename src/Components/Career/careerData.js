@@ -17,7 +17,7 @@ export const jobOpenings = [
     id: 1,
     category: "Front-end developer",
     icon: <MdOutlineDesignServices size={120} style={{ color: "#0A56A4" }} />,
-    title: "UI/UX Design",
+    title: "UI/UX Designer",
     para: "Ava-Data Offers the best End-To-End UI/UX Design Services in India That Transform Your Brand Image And Boost Customer Satisfaction. Ava-Data Offers the best End-To-End UI/UX Design Services in India That Transform Your Brand Image And Boost Customer Satisfaction. ",
   },
   {
@@ -25,13 +25,13 @@ export const jobOpenings = [
     category: "Front-end developer",
     icon: <SiBlockchaindotcom size={120} style={{ color: "#0A56A4" }} />,
     title: "ReactJs Developer",
-    para: "We are looking for a skilled react.js developer to join our front-end development team. In this role, you will be responsible.      ",
+    para: "We are looking for a skilled react.js developer to join our front-end development team. In this role, you will be responsible for developing smooth running webapp.      ",
   },
   {
     id: 3,
     category: "Backend developer",
     icon: <MdWebAsset size={120} style={{ color: "#0A56A4" }} />,
-    title: "Web Development",
+    title: "Web Developer",
     para: "We are currently looking for .Net Developers to join our dynamic technical team.      ",
   },
   {
@@ -40,7 +40,7 @@ export const jobOpenings = [
     icon: (
       <MdOutlineMobileScreenShare size={120} style={{ color: "#0A56A4" }} />
     ),
-    title: "Python Development",
+    title: "Python Developer",
     para: " We are looking for an experienced Python developer who will be responsible for writing and testing scalable code.      ",
   },
   {
@@ -54,7 +54,7 @@ export const jobOpenings = [
     id: 6,
     category: "DevOps",
     icon: <MdOutlineCloudQueue size={120} style={{ color: "#0A56A4" }} />,
-    title: "Devops",
+    title: "DevOps",
     para: "We are looking for a atleast 3 years experience in DevOps field. Candidate should have knowledge of Docker, Kubernetes, Nginix, AWS and Azure technology. Anybody who holds these tech skills can appy here",
   },
   {
@@ -63,6 +63,20 @@ export const jobOpenings = [
     icon:<SiWordpress size={120} style={{ color: "#0A56A4" }} />,
     title: "Wordpress developer",
     para: "WordPress Developers are responsible for both back-end and front-end development, including creating WordPress themes and plugins.      ",
+  },
+  {
+    id: 8,
+    category: "Testing",
+    icon:<MdOutlineMobileScreenShare size={120} style={{ color: "#0A56A4" }} />,
+    title: "QA Tester",
+    para: "As a QA tester the candidates should have experience in testing softwares and mobile app. The testing outcomes would result in finding bugs and errors.",
+  },
+  {
+    id: 9,
+    category: "Front-end developer",
+    icon:<SiBlockchaindotcom size={120} style={{ color: "#0A56A4" }} />,
+    title: "React native developer",
+    para: "We are looking for a skilled React native developer to join our front-end development team. In this role, you will be responsible for developing mobile applications.    ",
   },
 ];
 export const careerPerksData = [
