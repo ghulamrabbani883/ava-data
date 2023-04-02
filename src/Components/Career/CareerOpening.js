@@ -50,9 +50,9 @@ const CareerOpening = ({scrollToJobOpening}) => {
                   <div className="jobListTitle">{job.title}</div>
                   <div className="jobListPara">{job.para}</div>
                   <div className="JobListButton">
-                    <Link to="/contact">
-                      <button type="button">Send CV</button>
-                    </Link>
+                    {/* <Link to="/contact"> */}
+                      <button type="button" onClick={()=>window.location = "mailto:avadata.in@gmail.com"}>Send CV</button>
+                    {/* </Link> */}
                   </div>
                 </div>
               </div>
