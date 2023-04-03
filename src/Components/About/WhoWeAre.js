@@ -13,7 +13,7 @@ const WhoWeAre = () => {
         </figure>
       </div>
       <div className="whoWeRight">
-        <h2 className="whoWeRightTitle">Who are we?</h2>
+        <h2 className="whoWeRightTitle"><span style={{"color":"#05a"}}>Who</span> are we?</h2>
         <p className="whoWeRightPara">We are a pack of innovators, web developers, software engineers, marketers, and tech enthusiasts who convert your ideas into tangible business ventures. We are everything you need to create world-class software solutions — from full-stack development to cloud engineering. We are the best engineering partners for your most complicated business challenges. We think of ourselves as a transformation machine that processes an idea and converts it into a tangible digital solution perfected for your target market.</p>
         <Link to="/contact"><button className="whoWeRightButton" type="button">
             <p>Inquiry now</p>
