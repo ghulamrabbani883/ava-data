@@ -248,12 +248,12 @@ const Contact = () => {
             <FaRegArrowAltCircleLeft
               className="clientsController"
               size={24}
-              onClick={() => scroll(40)}
+              onClick={() => scroll(-40)}
             />
             <FaRegArrowAltCircleRight
               className="clientsController"
               size={24}
-              onClick={() => scroll(-40)}
+              onClick={() => scroll(40)}
             />
           </div>
         </div>
